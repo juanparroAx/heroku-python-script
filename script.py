@@ -129,7 +129,7 @@ def teams_webhook():
 
 def main():
     global bot_email, bot_name
-    
+    print("Si funciona")
     if len(bearer) != 0:
         test_auth = send_get("https://api.ciscospark.com/v1/people/me", js=False)
         if test_auth.status_code == 401:
