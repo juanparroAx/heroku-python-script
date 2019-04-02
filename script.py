@@ -161,5 +161,7 @@ def main():
     else:
         app.run()
 
+print("Hola")
+
 if __name__ == "__main__":
     main()
