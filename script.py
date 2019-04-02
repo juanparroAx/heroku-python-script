@@ -1,5 +1,4 @@
     # -*- coding: utf-8 -*-
-
 import http.client, urllib.parse, time
 from pprint import pprint
 import requests
