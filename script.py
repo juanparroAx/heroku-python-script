@@ -129,7 +129,7 @@ def teams_webhook():
 
 def main():
     global bot_email, bot_name
-    print("Si funciona")
+    
     if len(bearer) != 0:
         test_auth = send_get("https://api.ciscospark.com/v1/people/me", js=False)
         if test_auth.status_code == 401:
@@ -158,7 +158,8 @@ def main():
               "You can always go to https://developer.webex.com/my-apps "
               "and generate a new access token for your Bot.")
         sys.exit()
-
+    else:
+        app.run()
 
 if __name__ == "__main__":
     main()
