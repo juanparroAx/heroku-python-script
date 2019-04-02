@@ -158,7 +158,7 @@ def main():
               "and generate a new access token for your Bot.")
         sys.exit()
     else:
-        app.run(host='localhost', port=8080)
+        app.run(host='https://samiwebexteam.azurewebsites.net', port=8080)
 
 if __name__ == "__main__":
     main()
