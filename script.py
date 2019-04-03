@@ -159,7 +159,7 @@ def main():
               "and generate a new access token for your Bot.")
         sys.exit()
     else:
-        app.run()
+        app.run(debug=True, use_reloader=True)
 
 print("Hola")
 
